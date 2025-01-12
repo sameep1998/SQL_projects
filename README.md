@@ -28,7 +28,7 @@ CREATE DATABASE retail_sales;
 CREATE TABLE retail_sales
 (
   CREATE TABLE retail_sales (
-  transaction_id int,
+  transaction_id int Primary Key,
   sale_date date,
   sale_time time,
   customer_id int,
